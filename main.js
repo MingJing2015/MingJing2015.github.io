@@ -35,21 +35,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./heroes/heroes.component */ "./src/app/heroes/heroes.component.ts");
-/* harmony import */ var _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./hero-detail/hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
-/* harmony import */ var _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/detail/detail.component */ "./src/app/views/detail/detail.component.ts");
-/* harmony import */ var _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/type-page/type-page.component */ "./src/app/views/type-page/type-page.component.ts");
-/* harmony import */ var _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/cart/cart.component */ "./src/app/views/cart/cart.component.ts");
-/* harmony import */ var _views_order_order_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/order/order.component */ "./src/app/views/order/order.component.ts");
-/* harmony import */ var _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/pay-bill/pay-bill.component */ "./src/app/views/pay-bill/pay-bill.component.ts");
-/* harmony import */ var _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./views/search-result/search-result.component */ "./src/app/views/search-result/search-result.component.ts");
+/* harmony import */ var _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./heroes/heroes.component */ "./src/app/heroes/heroes.component.ts");
+/* harmony import */ var _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./hero-detail/hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
+/* harmony import */ var _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/detail/detail.component */ "./src/app/views/detail/detail.component.ts");
+/* harmony import */ var _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/type-page/type-page.component */ "./src/app/views/type-page/type-page.component.ts");
+/* harmony import */ var _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/cart/cart.component */ "./src/app/views/cart/cart.component.ts");
+/* harmony import */ var _views_order_order_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./views/order/order.component */ "./src/app/views/order/order.component.ts");
+/* harmony import */ var _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./views/pay-bill/pay-bill.component */ "./src/app/views/pay-bill/pay-bill.component.ts");
+/* harmony import */ var _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./views/search-result/search-result.component */ "./src/app/views/search-result/search-result.component.ts");
+/* harmony import */ var _back_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./back/dashboard/dashboard.component */ "./src/app/back/dashboard/dashboard.component.ts");
+/* harmony import */ var _back_admin_admin_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./back/admin/admin.component */ "./src/app/back/admin/admin.component.ts");
+/* harmony import */ var _back_goods_goods_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./back/goods/goods.component */ "./src/app/back/goods/goods.component.ts");
+/* harmony import */ var _back_edit_goods_edit_goods_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./back/edit-goods/edit-goods.component */ "./src/app/back/edit-goods/edit-goods.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+//import { DashboardComponent } from './dashboard/dashboard.component';
+
 
 
 
@@ -63,33 +70,37 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var routes = [
     { path: '', redirectTo: '/type-page/type-page/1', pathMatch: 'full' },
-    { path: 'type-page/type-page/:cat_id', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'detail/detail/:goods_id', component: _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_5__["DetailComponent"] },
-    { path: 'type-page/type-page/:cat_id', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_6__["TypePageComponent"] },
-    { path: 'dashboard', component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_2__["DashboardComponent"] },
-    { path: 'detail/:id', component: _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_4__["HeroDetailComponent"] },
+    { path: 'type-page/type-page/:cat_id', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'detail/detail/:goods_id', component: _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_4__["DetailComponent"] },
+    { path: 'type-page/type-page/:cat_id', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z/:x', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z/:x/:y', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'type-page/type-page/:cat_id/:x/:y/:z/:x/:x/:x/:x/:y/:z/:x/:y/:z/:x/:y/:z', component: _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_5__["TypePageComponent"] },
+    { path: 'dashboard', component: _back_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_10__["DashboardComponent"] },
+    { path: 'admin/admin/:id', component: _back_admin_admin_component__WEBPACK_IMPORTED_MODULE_11__["AdminComponent"] },
+    { path: 'goods/goods', component: _back_goods_goods_component__WEBPACK_IMPORTED_MODULE_12__["GoodsComponent"] },
+    { path: 'edit-goods/edit-goods', component: _back_edit_goods_edit_goods_component__WEBPACK_IMPORTED_MODULE_13__["EditGoodsComponent"] },
+    { path: 'edit-goods/edit-goods/:id/:type', component: _back_edit_goods_edit_goods_component__WEBPACK_IMPORTED_MODULE_13__["EditGoodsComponent"] },
+    { path: 'detail/:id', component: _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_3__["HeroDetailComponent"] },
     // { path: 'cart/:id', component: CartComponent },
-    { path: 'cart/cart/:goods_id/:goods_name/:shop_price', component: _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_7__["CartComponent"] },
-    { path: 'cart/cart', component: _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_7__["CartComponent"] },
-    { path: 'order/order', component: _views_order_order_component__WEBPACK_IMPORTED_MODULE_8__["OrderComponent"] },
-    { path: 'pay-bill/:money', component: _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_9__["PayBillComponent"] },
-    { path: 'search-result/search-result/:search_Text', component: _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_10__["SearchResultComponent"] },
-    { path: 'heroes', component: _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_3__["HeroesComponent"] },
+    { path: 'cart/cart/:goods_id/:goods_name/:shop_price', component: _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_6__["CartComponent"] },
+    { path: 'cart/cart', component: _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_6__["CartComponent"] },
+    { path: 'order/order', component: _views_order_order_component__WEBPACK_IMPORTED_MODULE_7__["OrderComponent"] },
+    { path: 'pay-bill/:money', component: _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_8__["PayBillComponent"] },
+    { path: 'search-result/search-result/:search_Text', component: _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_9__["SearchResultComponent"] },
+    { path: 'heroes', component: _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_2__["HeroesComponent"] },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -183,21 +194,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_in_memory_data_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./services/in-memory-data.service */ "./src/app/services/in-memory-data.service.ts");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./hero-detail/hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
-/* harmony import */ var _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./heroes/heroes.component */ "./src/app/heroes/heroes.component.ts");
-/* harmony import */ var _hero_search_hero_search_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./hero-search/hero-search.component */ "./src/app/hero-search/hero-search.component.ts");
-/* harmony import */ var _messages_messages_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./messages/messages.component */ "./src/app/messages/messages.component.ts");
-/* harmony import */ var _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/type-page/type-page.component */ "./src/app/views/type-page/type-page.component.ts");
-/* harmony import */ var _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./views/cart/cart.component */ "./src/app/views/cart/cart.component.ts");
-/* harmony import */ var _views_order_order_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./views/order/order.component */ "./src/app/views/order/order.component.ts");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/pay-bill/pay-bill.component */ "./src/app/views/pay-bill/pay-bill.component.ts");
-/* harmony import */ var _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/detail/detail.component */ "./src/app/views/detail/detail.component.ts");
-/* harmony import */ var _views_breadcrumb_breadcrumb_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./views/breadcrumb/breadcrumb.component */ "./src/app/views/breadcrumb/breadcrumb.component.ts");
-/* harmony import */ var _views_search_search_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./views/search/search.component */ "./src/app/views/search/search.component.ts");
-/* harmony import */ var _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./views/search-result/search-result.component */ "./src/app/views/search-result/search-result.component.ts");
-/* harmony import */ var _views_small_goods_small_goods_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./views/small-goods/small-goods.component */ "./src/app/views/small-goods/small-goods.component.ts");
+/* harmony import */ var _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./hero-detail/hero-detail.component */ "./src/app/hero-detail/hero-detail.component.ts");
+/* harmony import */ var _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./heroes/heroes.component */ "./src/app/heroes/heroes.component.ts");
+/* harmony import */ var _hero_search_hero_search_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./hero-search/hero-search.component */ "./src/app/hero-search/hero-search.component.ts");
+/* harmony import */ var _messages_messages_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./messages/messages.component */ "./src/app/messages/messages.component.ts");
+/* harmony import */ var _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/type-page/type-page.component */ "./src/app/views/type-page/type-page.component.ts");
+/* harmony import */ var _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./views/cart/cart.component */ "./src/app/views/cart/cart.component.ts");
+/* harmony import */ var _views_order_order_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./views/order/order.component */ "./src/app/views/order/order.component.ts");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./views/pay-bill/pay-bill.component */ "./src/app/views/pay-bill/pay-bill.component.ts");
+/* harmony import */ var _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/detail/detail.component */ "./src/app/views/detail/detail.component.ts");
+/* harmony import */ var _views_breadcrumb_breadcrumb_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/breadcrumb/breadcrumb.component */ "./src/app/views/breadcrumb/breadcrumb.component.ts");
+/* harmony import */ var _views_search_search_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./views/search/search.component */ "./src/app/views/search/search.component.ts");
+/* harmony import */ var _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./views/search-result/search-result.component */ "./src/app/views/search-result/search-result.component.ts");
+/* harmony import */ var _views_small_goods_small_goods_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./views/small-goods/small-goods.component */ "./src/app/views/small-goods/small-goods.component.ts");
+/* harmony import */ var _back_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./back/dashboard/dashboard.component */ "./src/app/back/dashboard/dashboard.component.ts");
+/* harmony import */ var _back_admin_admin_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./back/admin/admin.component */ "./src/app/back/admin/admin.component.ts");
+/* harmony import */ var _back_goods_goods_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./back/goods/goods.component */ "./src/app/back/goods/goods.component.ts");
+/* harmony import */ var _back_edit_goods_edit_goods_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./back/edit-goods/edit-goods.component */ "./src/app/back/edit-goods/edit-goods.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -227,6 +241,10 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
+
+//import { AdminService }    from './back/services/admin.service';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -238,7 +256,7 @@ var AppModule = /** @class */ (function () {
                 _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                _angular_http__WEBPACK_IMPORTED_MODULE_16__["HttpModule"],
+                _angular_http__WEBPACK_IMPORTED_MODULE_15__["HttpModule"],
                 // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
                 // and returns simulated server responses.
                 // Remove it when a real server is ready to receive requests.
@@ -246,20 +264,24 @@ var AppModule = /** @class */ (function () {
             ],
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
-                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["DashboardComponent"],
-                _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_10__["HeroesComponent"],
-                _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_9__["HeroDetailComponent"],
-                _messages_messages_component__WEBPACK_IMPORTED_MODULE_12__["MessagesComponent"],
-                _hero_search_hero_search_component__WEBPACK_IMPORTED_MODULE_11__["HeroSearchComponent"],
-                _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_13__["TypePageComponent"],
-                _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_14__["CartComponent"],
-                _views_order_order_component__WEBPACK_IMPORTED_MODULE_15__["OrderComponent"],
-                _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_17__["PayBillComponent"],
-                _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_18__["DetailComponent"],
-                _views_breadcrumb_breadcrumb_component__WEBPACK_IMPORTED_MODULE_19__["BreadcrumbComponent"],
-                _views_search_search_component__WEBPACK_IMPORTED_MODULE_20__["SearchComponent"],
-                _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_21__["SearchResultComponent"],
-                _views_small_goods_small_goods_component__WEBPACK_IMPORTED_MODULE_22__["SmallGoodsComponent"]
+                _back_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_22__["DashboardComponent"],
+                _back_admin_admin_component__WEBPACK_IMPORTED_MODULE_23__["AdminComponent"],
+                _back_goods_goods_component__WEBPACK_IMPORTED_MODULE_24__["GoodsComponent"],
+                _back_edit_goods_edit_goods_component__WEBPACK_IMPORTED_MODULE_25__["EditGoodsComponent"],
+                _heroes_heroes_component__WEBPACK_IMPORTED_MODULE_9__["HeroesComponent"],
+                _hero_detail_hero_detail_component__WEBPACK_IMPORTED_MODULE_8__["HeroDetailComponent"],
+                _messages_messages_component__WEBPACK_IMPORTED_MODULE_11__["MessagesComponent"],
+                _hero_search_hero_search_component__WEBPACK_IMPORTED_MODULE_10__["HeroSearchComponent"],
+                _views_type_page_type_page_component__WEBPACK_IMPORTED_MODULE_12__["TypePageComponent"],
+                _views_cart_cart_component__WEBPACK_IMPORTED_MODULE_13__["CartComponent"],
+                _views_order_order_component__WEBPACK_IMPORTED_MODULE_14__["OrderComponent"],
+                _views_pay_bill_pay_bill_component__WEBPACK_IMPORTED_MODULE_16__["PayBillComponent"],
+                _views_detail_detail_component__WEBPACK_IMPORTED_MODULE_17__["DetailComponent"],
+                _views_breadcrumb_breadcrumb_component__WEBPACK_IMPORTED_MODULE_18__["BreadcrumbComponent"],
+                _views_search_search_component__WEBPACK_IMPORTED_MODULE_19__["SearchComponent"],
+                _views_search_result_search_result_component__WEBPACK_IMPORTED_MODULE_20__["SearchResultComponent"],
+                _views_small_goods_small_goods_component__WEBPACK_IMPORTED_MODULE_21__["SmallGoodsComponent"]
+                //AdminService
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
@@ -271,40 +293,43 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/dashboard/dashboard.component.css":
-/*!***************************************************!*\
-  !*** ./src/app/dashboard/dashboard.component.css ***!
-  \***************************************************/
+/***/ "./src/app/back/admin/admin.component.css":
+/*!************************************************!*\
+  !*** ./src/app/back/admin/admin.component.css ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* DashboardComponent's private CSS styles */\n[class*='col-'] {\n  float: left;\n  padding-right: 20px;\n  padding-bottom: 20px;\n}\n[class*='col-']:last-of-type {\n  padding-right: 0;\n}\na {\n  text-decoration: none;\n}\n*, *:after, *:before {\n  box-sizing: border-box;\n}\nh3 {\n  text-align: center; margin-bottom: 0;\n}\nh4 {\n  position: relative;\n}\n.grid {\n  margin: 0;\n}\n.col-1-4 {\n  width: 25%;\n}\n.module {\n  padding: 20px;\n  text-align: center;\n  color: #eee;\n  max-height: 120px;\n  min-width: 120px;\n  background-color: #607D8B;\n  border-radius: 2px;\n}\n.module:hover {\n  background-color: #EEE;\n  cursor: pointer;\n  color: #607d8b;\n}\n.grid-pad {\n  padding: 10px 0;\n}\n.grid-pad > [class*='col-']:last-of-type {\n  padding-right: 20px;\n}\n@media (max-width: 600px) {\n  .module {\n    font-size: 10px;\n    max-height: 75px; }\n}\n@media (max-width: 1024px) {\n  .grid {\n    margin: 0;\n  }\n  .module {\n    min-width: 60px;\n  }\n}"
+module.exports = ".caption {\n\n    background-color: #BBD8DC;\n}\n\n\n#list1{\n\n\n}\n\n\n/*没有小于768px，是因为Bootstrap3以移动端优先设计*/\n\n\n.tab-h2 {\n    font-size: 20px;\n    /* text-align: center;  */\n    letter-spacing: 1px;\n    color: #0059b2;\n}\n\n\n.tab-p {\n    font-size: 15px;\n    text-align: center;\n    letter-spacing: 1px;\n    color: #999;\n    margin: 20px 0 40px 0;\n}\n\n\n/* 小屏幕（平板，大于等于768px） */\n\n\n@media (min-width: 768px) {\n    .tab-h2 {\n        font-size: 26px;\n    }\n    .tab-p {\n        font-size: 16px;\n    }\n    .text h3 {\n        font-size: 22px;\n    }\n    .text p {\n        font-size: 15px;\n    }\n\n}\n\n\n/* 中等屏幕（桌面显示器，大于等于992px） */\n\n\n@media (min-width: 992px) {\n    .tab-h2 {\n        font-size: 28px;\n    }\n    .tab-p {\n        font-size: 17px;\n    }\n    .text h3 {\n        font-size: 24px;\n    }\n    .text p {\n        font-size: 16px;\n    }\n\n}\n\n\n/* 大屏幕（大桌面显示器，大于等于1200px） */\n\n\n@media (min-width: 1200px) {\n    .tab-h2 {\n        font-size: 30px;\n    }\n    .tab-p {\n        font-size: 18px;\n    }\n    .text h3 {\n        font-size: 26px;\n    }\n    .text p {\n        font-size: 18px;\n    }\n\n}\n"
 
 /***/ }),
 
-/***/ "./src/app/dashboard/dashboard.component.html":
-/*!****************************************************!*\
-  !*** ./src/app/dashboard/dashboard.component.html ***!
-  \****************************************************/
+/***/ "./src/app/back/admin/admin.component.html":
+/*!*************************************************!*\
+  !*** ./src/app/back/admin/admin.component.html ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h3>Top Heroes</h3>\n<div class=\"grid grid-pad\">\n  <a *ngFor=\"let hero of heroes\" class=\"col-1-4\"\n      routerLink=\"/detail/{{hero.id}}\">\n    <div class=\"module hero\">\n      <h4>{{hero.name}}</h4>\n    </div>\n  </a>\n</div>\n\n<app-hero-search></app-hero-search>"
+module.exports = "<nav class=\"navbar navbar-default\">\n\n    <div class=\"container\">\n\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                aria-expanded=\"false\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n\n            <a class=\"navbar-brand\" href=\"#\">\n                    <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\"></a> \n                <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a routerLink=\"/type-page/type-page/11\" routerLinkActive=\"active fluffy\">\n                        <span class=\"glyphicon glyphicon-shopping-cart\"></span> Shopping</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n\n<div class=\"container\">\n    <div class=\"row\" id=\"list1\">\n        <div class=\"thumbnail col-md-8\" style=\"box-shadow:2px 2px 3px #ccc;\">\n            <div class=\"caption\">\n                <h3 class=\"tab-h2\">Category Information Administration</h3>\n            </div>\n            <br/>\n            <table class=\"table table-striped\" style=\"box-shadow:2px 2px 3px #ccc;\">\n                <tr>\n                    <th></th>\n                    <th>Category ID</th>\n                    <th>Parent ID</th>\n                    <th>Name</th>\n                    <th>Description</th>\n                </tr>\n                <tr *ngFor=\"let item of categories\">\n                    <td>\n                        <button class=\"delete\" (click)=\"addOne(); $event.stopPropagation()\">C</button>\n                        <button class=\"delete\" (click)=\"deleteOne(item); $event.stopPropagation()\">D</button>\n                        <button class=\"delete\" (click)=\"editOne(item); $event.stopPropagation()\">U</button>\n                    </td>\n                    <td align=\"center\">{{item.cat_id}}</td>\n                    <td align=\"center\">{{item.parent_id}}</td>\n                    <td>{{item.cat_name}}</td>\n                    <td>{{item.intro}}</td>\n                </tr>\n            </table>\n            <p>\n                <button type=\"button\" class=\"btn btn-primary\" (click)=\"goBack()\">Go back</button>\n            </p>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-sm-6 col-md-4\">\n              <div class=\"thumbnail\" *ngIf=\"editItem\">\n                <div class=\"caption\">\n                  <h3>{{subTitle}}</h3><hr>\n                  <form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\n                    {{diagnostic}}\n                    <div class=\"form-group\">\n                        <label for=\"name\">Name</label>\n                        <input type=\"text\" class=\"form-control\" id=\"name\" required [(ngModel)]=\"editItem.cat_name\" name=\"name\">\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"parent_id\">Parent Category</label>\n                        <select class=\"form-control\" id=\"parent_id\" required [(ngModel)]=\"editItem.parent_id\" name=\"power\">\n                            <option *ngFor=\"let item1 of subCat_OneGrageItems\" [value]=\"item1.cat_id\">{{item1.cat_name}}</option>\n                        </select>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"description\">Description</label>\n                        <input type=\"text\" class=\"form-control\" id=\"description\" [(ngModel)]=\"editItem.intro\" name=\"description\">\n                    </div>\n                    <button type=\"button\" class=\"btn btn-default\" (click)=\"goBack()\">Go back</button>\n                    <button type=\"submit\" class=\"btn btn-info\" [disabled]=\"!heroForm.form.valid\">Submit</button>\n                </form>\n                </div>\n              </div>\n            </div>\n          </div>\n\n\n<!--\n            <div class=\"col-xs-12 col-sm-4\">\n                <div class=\"thumbnail\" *ngIf=\"editItem\">\n                    <div class=\"caption col-xs-12 col-sm-12\">\n                        <h3>{{subTitle}}</h3>\n\n                        <form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\n                            {{diagnostic}}\n                            <div class=\"form-group\">\n                                <label for=\"name\">Name</label>\n                                <input type=\"text\" class=\"form-control\" id=\"name\" required [(ngModel)]=\"editItem.cat_name\" name=\"name\">\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"parent_id\">Parent Category</label>\n                                <select class=\"form-control\" id=\"parent_id\" required [(ngModel)]=\"editItem.parent_id\" name=\"power\">\n                                    <option *ngFor=\"let item1 of subCat_OneGrageItems\" [value]=\"item1.cat_id\">{{item1.cat_name}}</option>\n                                </select>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"description\">Description</label>\n                                <input type=\"text\" class=\"form-control\" id=\"description\" [(ngModel)]=\"editItem.intro\" name=\"description\">\n                            </div>\n                            <button type=\"button\" class=\"btn btn-default\" (click)=\"goBack()\">Go back</button>\n                            <button type=\"submit\" class=\"btn btn-info\" [disabled]=\"!heroForm.form.valid\">Submit</button>\n                        </form>\n                    </div>\n                </div>\n            </div>\n        -->\n\n        </div>\n</div>"
 
 /***/ }),
 
-/***/ "./src/app/dashboard/dashboard.component.ts":
-/*!**************************************************!*\
-  !*** ./src/app/dashboard/dashboard.component.ts ***!
-  \**************************************************/
-/*! exports provided: DashboardComponent */
+/***/ "./src/app/back/admin/admin.component.ts":
+/*!***********************************************!*\
+  !*** ./src/app/back/admin/admin.component.ts ***!
+  \***********************************************/
+/*! exports provided: AdminComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminComponent", function() { return AdminComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_hero_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/hero.service */ "./src/app/services/hero.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_admin_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/admin.service */ "./src/app/back/services/admin.service.ts");
+/* harmony import */ var _models_defineClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../models/defineClass */ "./src/app/models/defineClass.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -316,28 +341,614 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
+
+
+//import { RouteParams, Router }    from '@angular/router-deprecated';
+//import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms';
+//import {forEach} from "@angular/router/src/utils/collection";
+var AdminComponent = /** @class */ (function () {
+    function AdminComponent(adminService, route, location) {
+        this.adminService = adminService;
+        this.route = route;
+        this.location = location;
+        //model = new Category( 13, 13, 1, 'HUAWEI', 'HUAWEI');
+        this.submitted = false;
+    }
+    AdminComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.sub = this.route.params.subscribe(function (params) {
+            _this.id = +params['id']; // (+) converts string 'id' to a number
+            // In a real app: dispatch action to load the details here.
+        });
+        // ?? ?? let id = this.routeParams.get('id');
+        console.log(this.id);
+        this.getCategoryAddRoot();
+    };
+    AdminComponent.prototype.ngOnDestroy = function () {
+        this.sub.unsubscribe();
+    };
+    /*
+    private getCategory(): Promise<Category[]> {
+  
+      return this.adminService.getCategory()
+          .then(categories => this.categories = categories);
+    }
+  */
+    // delete to in-memory-data
+    AdminComponent.prototype.deleteOne = function (item) {
+        var _this = this;
+        this.adminService
+            .deleteOneItem(item)
+            .then(function () {
+            _this.categories = _this.categories.filter(function (h) { return h !== item; });
+        });
+    };
+    //
+    AdminComponent.prototype.addOne = function () {
+        this.editItem = new _models_defineClass__WEBPACK_IMPORTED_MODULE_4__["Category"](1, 1, 1, 'Category Name', 'Description');
+        this.subTitle = "Add Category";
+        this.adminType = 1;
+        console.log("Add a new one Category ====== ");
+    };
+    // delete
+    AdminComponent.prototype.editOne = function (item) {
+        this.editItem = item;
+        this.subTitle = "Edit Category";
+        this.adminType = 3;
+        console.log("Edit a new one Category ====== ");
+    };
+    AdminComponent.prototype.startSearch = function () {
+        //let link = ['/teacher/teacher', this.myForm.value.searchText];
+        console.log("addd item ...... ");
+        alert("Add Form");
+        //this.router.navigate(link);
+    };
+    // ------------------------------------------- For edit Form :
+    AdminComponent.prototype.getCategory = function () {
+        var _this = this;
+        return this.adminService.getCategory()
+            .then(function (categories) { return _this.categories = categories; })
+            .then(function () {
+            _this.subCat_OneGrageItems = _this.categories.filter(function (h) { return h.parent_id == 0; });
+        });
+    };
+    AdminComponent.prototype.getCategoryAddRoot = function () {
+        var _this = this;
+        // Add Root Level ---> select option item
+        var root = new _models_defineClass__WEBPACK_IMPORTED_MODULE_4__["Category"](0, 0, 0, 'Root Category', 'Root Category');
+        return this.getCategory()
+            .then(function () {
+            _this.subCat_OneGrageItems.push(root);
+        });
+    };
+    AdminComponent.prototype.onSubmit = function () {
+        //console.log("After submit ---  this.editItem" );
+        //console.log(this.editItem);
+        if (this.adminType == 3) {
+            this.adminService.updateOneItem(this.editItem);
+        }
+        if (this.adminType == 1) {
+            this.getNewCatIDandSave();
+        }
+        this.submitted = true;
+        this.editItem = null;
+    };
+    // For get new Category's ID
+    AdminComponent.prototype.getNewCatIDandSave = function () {
+        var newID = 0;
+        // Why it could not find ? why changed ?
+        if (!isNaN(this.editItem.parent_id))
+            this.editItem.parent_id = Number(this.editItem.parent_id);
+        // For Add, new One
+        var newItem = new _models_defineClass__WEBPACK_IMPORTED_MODULE_4__["Category"](0, 0, this.editItem.parent_id, this.editItem.cat_name, this.editItem.intro);
+        for (var i = 0; i < this.categories.length; i++) {
+            if (this.categories[i].parent_id === this.editItem.parent_id) {
+                if (this.categories[i].cat_id > newID) {
+                    newID = this.categories[i].cat_id;
+                }
+            }
+        }
+        if (newID === 0) {
+            // This item is the first one of this category !!!
+            newID = this.editItem.parent_id * 10; // parent ID type 4 => 40
+        }
+        newItem.cat_id = newID + 1;
+        newItem.id = newID + 1;
+        //console.log("will save ---- this.editItem" );
+        console.log(newItem);
+        this.categories.unshift(newItem);
+        if (newItem.parent_id === 0) {
+            // Because : New Add a one Level Category, and push in : this.subCategories, for select options using
+            this.subCat_OneGrageItems.push(newItem);
+        }
+        this.adminService.createOneItem(newItem);
+    };
+    AdminComponent.prototype.goBack = function () {
+        this.location.back();
+    };
+    AdminComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-admin',
+            template: __webpack_require__(/*! ./admin.component.html */ "./src/app/back/admin/admin.component.html"),
+            styles: [__webpack_require__(/*! ./admin.component.css */ "./src/app/back/admin/admin.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_admin_service__WEBPACK_IMPORTED_MODULE_3__["AdminService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]])
+    ], AdminComponent);
+    return AdminComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/back/dashboard/dashboard.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/back/dashboard/dashboard.component.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "[class*='col-'] {\n    float: left;\n    padding-right: 20px;\n    padding-bottom: 20px;\n}\n[class*='col-']:last-of-type {\n    padding-right: 0;\n}\na {\n    text-decoration: none;\n}\n*, *:after, *:before {\n    box-sizing: border-box;\n}\nh3 {\n    text-align: center; margin-bottom: 0;\n}\nh4 {\n    position: relative;\n}\n.grid {\n    margin: 0;\n}\n.col-1-4 {\n    width: 25%;\n}\n.module {\n    padding: 20px;\n    text-align: center;\n    color: #eee;\n    max-height: 120px;\n    min-width: 120px;\n    background-color: #607D8B;\n    border-radius: 3px;\n}\n.module:hover {\n    background-color: #EEE;\n    cursor: pointer;\n    color: #607d8b;\n}\n.grid-pad {\n    padding: 10px 0;\n}\n.grid-pad > [class*='col-']:last-of-type {\n    padding-right: 20px;\n}\n@media (max-width: 600px) {\n    .module {\n        font-size: 10px;\n        max-height: 75px; }\n}\n@media (max-width: 1024px) {\n    .grid {\n        margin: 0;\n    }\n    .module {\n        min-width: 60px;\n    }\n}\n.caption {\n\n    background-color: #BBD8DC;\n}\n\n\n\n"
+
+/***/ }),
+
+/***/ "./src/app/back/dashboard/dashboard.component.html":
+/*!*********************************************************!*\
+  !*** ./src/app/back/dashboard/dashboard.component.html ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n\n<nav class=\"navbar navbar-default\">\n  <div class=\"container\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"\n              data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n\n      <a class=\"navbar-brand\" href=\"#\">\n            <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\"></a> \n        <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a routerLink=\"/type-page/type-page/11\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Shopping</a></li>\n      </ul>\n    </div>\n\n\n    \n  </div>\n</nav>\n\n<!--\n<div class=\"row\">\n\n  <div class=\"col-md-offset-1 col-md-7\">\n\n    <div class=\"thumbnail\">\n\n      <div class=\"caption\">\n\n        <h3>Shopping Database administration</h3>\n\n        <h3>Shopping Database administration</h3>\n        <h3>Shopping Database administration</h3>\n\n        </div>\n      </div>\n    </div>\n\n  -->\n\n<div class=\"row\">\n\n  <div class=\"col-md-offset-1 col-md-8\">\n\n        <div class=\"grid grid-pad\">\n\n          <a [routerLink]=\"['/admin/admin', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>Category</h4>\n            </div>\n          </a>\n          <a [routerLink]=\"['/goods/goods']\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>Goods</h4>\n            </div>\n          </a>\n          <a [routerLink]=\"['/detail/detail', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>UserTable</h4>\n            </div>\n          </a>\n          <a [routerLink]=\"['/detail/detail', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>comment</h4>\n            </div>\n          </a>\n          <a [routerLink]=\"['/detail/detail', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>ordinfo</h4>\n            </div>\n          </a>\n          <a [routerLink]=\"['/detail/detail', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>ordgoods</h4>\n            </div>\n          </a>\n\n          <a [routerLink]=\"['/detail/detail', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>Table 1</h4>\n            </div>\n          </a>\n\n          <a [routerLink]=\"['/detail/detail', 1]\"  class=\"col-1-4\">\n            <div class=\"module hero\">\n              <h4>Table2</h4>\n            </div>\n          </a>\n\n        </div>\n  </div>\n</div>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/back/dashboard/dashboard.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/back/dashboard/dashboard.component.ts ***!
+  \*******************************************************/
+/*! exports provided: DashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//import { Teacher }  from '../data/defineClass';
+//import { DataService } from '../../services/data-service.service';
 var DashboardComponent = /** @class */ (function () {
-    function DashboardComponent(heroService) {
-        this.heroService = heroService;
-        this.heroes = [];
+    //teachers: Teacher[] = [];
+    //constructor(private dataService: DataService) {
+    function DashboardComponent() {
     }
     DashboardComponent.prototype.ngOnInit = function () {
-        this.getHeroes();
-    };
-    DashboardComponent.prototype.getHeroes = function () {
-        var _this = this;
-        this.heroService.getHeroes()
-            .subscribe(function (heroes) { return _this.heroes = heroes.slice(1, 5); });
+        //this.dataService.getHeroesFromWebApi()
+        //  .then(teachers => this.teachers = teachers.slice(1, 5));
     };
     DashboardComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-dashboard',
-            template: __webpack_require__(/*! ./dashboard.component.html */ "./src/app/dashboard/dashboard.component.html"),
-            styles: [__webpack_require__(/*! ./dashboard.component.css */ "./src/app/dashboard/dashboard.component.css")]
+            template: __webpack_require__(/*! ./dashboard.component.html */ "./src/app/back/dashboard/dashboard.component.html"),
+            styles: [__webpack_require__(/*! ./dashboard.component.css */ "./src/app/back/dashboard/dashboard.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_hero_service__WEBPACK_IMPORTED_MODULE_1__["HeroService"]])
+        __metadata("design:paramtypes", [])
     ], DashboardComponent);
     return DashboardComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/back/edit-goods/edit-goods.component.css":
+/*!**********************************************************!*\
+  !*** ./src/app/back/edit-goods/edit-goods.component.css ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".thumbnail  img {\n\n    width:50px;\n    height: 50px;\n\n    float: left;\n    display: inline-block;\n}\n\n\n.caption {\n\n    background-color: #BBD8DC;\n}\n"
+
+/***/ }),
+
+/***/ "./src/app/back/edit-goods/edit-goods.component.html":
+/*!***********************************************************!*\
+  !*** ./src/app/back/edit-goods/edit-goods.component.html ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<nav class=\"navbar navbar-default\">\n    <div class=\"container\">\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                aria-expanded=\"false\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n\n            <a class=\"navbar-brand\" href=\"#\">\n                <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\">\n            </a>\n            <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n        </div>\n\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a routerLink=\"/type-page/type-page/11\" routerLinkActive=\"active fluffy\">\n                        <span class=\"glyphicon glyphicon-shopping-cart\"></span> Shopping</a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n\n\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-xs-12 col-sm-8 col-sm-offset-2\">\n            <div class=\"thumbnail\">\n                <div class=\"caption\">\n                    <img src={{editItem.thumb_img}} alt=\"Responsive image\" class=\"img-circle\">\n                    <h3>{{title}}</h3>\n                    <hr />\n                    <form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\n                        <div class=\"container col-xs-12 col-sm-6\">\n                            {{diagnostic}}\n                            <div class=\"form-group\">\n                                <label for=\"name\">Name</label>\n                                <input type=\"text\" class=\"form-control\" id=\"name\" required [(ngModel)]=\"editItem.goods_name\" name=\"name\">\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"cat_id\">Category</label>\n                                <select class=\"form-control\" id=\"cat_id\" required [(ngModel)]=\"editItem.cat_id\" name=\"power\">\n                                    <option *ngFor=\"let item1 of subCategories\" [value]=\"item1.cat_id\">{{item1.cat_name}}</option>\n                                </select>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"shop_price\">Shop Price</label>\n                                <div class=\"input-group\">\n                                    <div class=\"input-group-addon\">$</div>\n                                    <input type=\"text\" class=\"form-control\" id=\"shop_price\" [(ngModel)]=\"editItem.shop_price\" placeholder=\"Amount\" name=\"shop_price\">\n                                    <div class=\"input-group-addon\"></div>\n                                </div>\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"market_price\">Market Price</label>\n                                <div class=\"input-group\">\n                                    <div class=\"input-group-addon\">$</div>\n                                    <input type=\"text\" class=\"form-control\" id=\"market_price\" [(ngModel)]=\"editItem.market_price\" placeholder=\"Amount\" name=\"market_price\">\n                                    <div class=\"input-group-addon\"></div>\n                                </div>\n                            </div>\n                            <div class=\"form-group\">\n                                <div class=\"checkbox\">\n                                    <label>\n                                        <input type=\"checkbox\" [(ngModel)]=\"editItem.is_free_post\" name=\"is_free_post\">Free Post\n                                    </label>\n                                </div>\n                            </div>\n                        </div>\n\n\n                        <div class=\"container col-xs-12 col-sm-6\">\n                            <div class=\"form-group\">\n                                <label for=\"goods_quantity\">Goods Quantity</label>\n                                <input type=\"text\" class=\"form-control\" id=\"goods_quantity\" required [(ngModel)]=\"editItem.goods_quantity\" name=\"goods_quantity\">\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"sold_quantity\">Sold Quantity</label>\n                                <input type=\"text\" class=\"form-control\" id=\"sold_quantity\" required [(ngModel)]=\"editItem.sold_quantity\" name=\"sold_quantity\">\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"last_update\">Update Time</label>\n                                <input type=\"datetime\" class=\"form-control\" id=\"last_update\" value={{editItem.last_update}} name=\"last_update\">\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"thumb_img\">Picture</label>\n                                <input type=\"text\" class=\"form-control\" id=\"thumb_img\" [(ngModel)]=\"editItem.thumb_img\" name=\"thumb_img\">\n                            </div>\n                            <div class=\"form-group\">\n                                <label for=\"exampleInputFile\">File input</label>\n                                <input type=\"file\" id=\"exampleInputFile\" name=\"exampleInputFile\">\n                            </div>\n                        </div>\n                        <hr />\n                        <button type=\"button\" class=\"btn btn-outline-primary\" (click)=\"goBack()\">Go back</button>\n                        <button type=\"submit\" class=\"btn btn-info\" [disabled]=\"!heroForm.form.valid\">Submit</button>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n<!--\n<div class=\"col-xs-12 col-sm-8 col-sm-offset-2\">\n    <div class=\"thumbnail\" *ngIf=\"editItem\">\n        <div class=\"row\">\n            <div class=\"container caption col-xs-12 col-sm-10\">\n                <img src={{editItem.thumb_img}} alt=\"Responsive image\" class=\"img-circle\">\n                <h3>{{title}}</h3>\n                <hr />\n                <form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\n                    <div class=\"container col-xs-12 col-sm-6\">\n                        {{diagnostic}}\n                        <div class=\"form-group\">\n                            <label for=\"name\">Name</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" required [(ngModel)]=\"editItem.goods_name\" name=\"name\">\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"cat_id\">Category</label>\n                            <select class=\"form-control\" id=\"cat_id\" required [(ngModel)]=\"editItem.cat_id\" name=\"power\">\n                                <option *ngFor=\"let item1 of subCategories\" [value]=\"item1.cat_id\">{{item1.cat_name}}</option>\n                            </select>\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"shop_price\">Shop Price</label>\n                            <div class=\"input-group\">\n                                <div class=\"input-group-addon\">$</div>\n                                <input type=\"text\" class=\"form-control\" id=\"shop_price\" [(ngModel)]=\"editItem.shop_price\" placeholder=\"Amount\" name=\"shop_price\">\n                                <div class=\"input-group-addon\"></div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"market_price\">Market Price</label>\n                            <div class=\"input-group\">\n                                <div class=\"input-group-addon\">$</div>\n                                <input type=\"text\" class=\"form-control\" id=\"market_price\" [(ngModel)]=\"editItem.market_price\" placeholder=\"Amount\" name=\"market_price\">\n                                <div class=\"input-group-addon\"></div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\">\n                            <div class=\"checkbox\">\n                                <label>\n                                    <input type=\"checkbox\" [(ngModel)]=\"editItem.is_free_post\" name=\"is_free_post\">Free Post\n                                </label>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"container col-xs-12 col-sm-6\">\n                        <div class=\"form-group\">\n                            <label for=\"goods_quantity\">Goods Quantity</label>\n                            <input type=\"text\" class=\"form-control\" id=\"goods_quantity\" required [(ngModel)]=\"editItem.goods_quantity\" name=\"goods_quantity\">\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"sold_quantity\">Sold Quantity</label>\n                            <input type=\"text\" class=\"form-control\" id=\"sold_quantity\" required [(ngModel)]=\"editItem.sold_quantity\" name=\"sold_quantity\">\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"last_update\">Update Time</label>\n                            <input type=\"datetime\" class=\"form-control\" id=\"last_update\" value={{editItem.last_update}} name=\"last_update\">\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"thumb_img\">Picture</label>\n                            <input type=\"text\" class=\"form-control\" id=\"thumb_img\" [(ngModel)]=\"editItem.thumb_img\" name=\"thumb_img\">\n                        </div>\n                        <div class=\"form-group\">\n                            <label for=\"exampleInputFile\">File input</label>\n                            <input type=\"file\" id=\"exampleInputFile\" name=\"exampleInputFile\">\n                        </div>\n                    </div>\n                    <hr />\n                    <button type=\"button\" class=\"btn btn-outline-primary\" (click)=\"goBack()\">Go back</button>\n                    <button type=\"submit\" class=\"btn btn-info\" [disabled]=\"!heroForm.form.valid\">Submit</button>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>\n-->"
+
+/***/ }),
+
+/***/ "./src/app/back/edit-goods/edit-goods.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/back/edit-goods/edit-goods.component.ts ***!
+  \*********************************************************/
+/*! exports provided: EditGoodsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditGoodsComponent", function() { return EditGoodsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_admin_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/admin.service */ "./src/app/back/services/admin.service.ts");
+/* harmony import */ var _models_defineClass__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../models/defineClass */ "./src/app/models/defineClass.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var EditGoodsComponent = /** @class */ (function () {
+    function EditGoodsComponent(adminService, route, router, location) {
+        this.adminService = adminService;
+        this.route = route;
+        this.router = router;
+        this.location = location;
+    }
+    EditGoodsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.sub = this.route.params.subscribe(function (params) {
+            _this.id = +params['id']; // (+) converts string 'id' to a number
+            _this.type = +params['type']; // (+) converts string 'id' to a number
+        });
+        console.log("param id = " + this.id + " type = " + this.type);
+        switch (this.type) {
+            case 1:
+                // Add new one
+                this.addFlag = true;
+                this.editFlag = false;
+                this.title = "Add Goods ";
+                break;
+            case 3:
+                // Edit
+                this.addFlag = false;
+                this.editFlag = true;
+                this.title = "Edit Goods " + this.id;
+                break;
+        }
+        this.getOneFromArray(this.id);
+        this.getCategory();
+        this.getAllGoods();
+    };
+    EditGoodsComponent.prototype.ngOnDestroy = function () {
+        this.sub.unsubscribe();
+    };
+    EditGoodsComponent.prototype.getOneFromArray = function (id) {
+        var _this = this;
+        return this.getOneItem(id)
+            .then(function () {
+            _this.editItem = _this.subGoodsArray[0];
+        });
+    };
+    EditGoodsComponent.prototype.getOneItem = function (id) {
+        var _this = this;
+        return this.adminService.getOneGoodsByID(id)
+            .then(function (goods) { return _this.subGoodsArray = goods; });
+    };
+    EditGoodsComponent.prototype.getCategory = function () {
+        var _this = this;
+        return this.adminService.getCategory()
+            .then(function (categories) { return _this.categories = categories; })
+            .then(function () {
+            _this.subCategories = _this.categories.filter(function (h) { return h.parent_id != 0; });
+        });
+    };
+    EditGoodsComponent.prototype.onSubmit = function () {
+        console.log("After submit ---  this.editItem");
+        console.log(this.editItem);
+        if (this.editFlag) {
+            this.adminService.updateOneGoods(this.editItem);
+        }
+        if (this.addFlag) {
+            this.getNewCatIDandSave();
+        }
+        this.router.navigate(['goods/goods']);
+    };
+    // For get new Category's ID
+    EditGoodsComponent.prototype.getNewCatIDandSave = function () {
+        var newID = 0;
+        // Passing select Option , cat_id changed to string, now change to number ?? Why changed ???
+        this.editItem.cat_id = Number(this.editItem.cat_id);
+        // For Add, new One
+        var newItem = new _models_defineClass__WEBPACK_IMPORTED_MODULE_4__["Goods"](0, this.editItem.cat_id, 0, this.editItem.goods_sn, this.editItem.brand_id, this.editItem.goods_name, this.editItem.shop_price, this.editItem.market_price, this.editItem.goods_quantity, this.editItem.sold_quantity, this.editItem.goods_weight, this.editItem.goods_brief, this.editItem.goods_desc, this.editItem.thumb_img, this.editItem.goods_img, this.editItem.ori_img, this.editItem.is_on_sale, this.editItem.is_delete, this.editItem.is_best, this.editItem.is_new, this.editItem.is_free_post, this.editItem.add_time, this.editItem.last_update);
+        for (var i = 0; i < this.goodsArray.length; i++) {
+            if (this.goodsArray[i].goods_id > newID) {
+                newID = this.goodsArray[i].goods_id;
+            }
+        }
+        newItem.goods_id = newID + 1;
+        newItem.id = newID + 1;
+        console.log("will save ---- this.editItem, new ID: ");
+        console.log(newItem);
+        this.goodsArray.unshift(newItem);
+        //this.editItem.cat_id = Number(this.editItem.cat_id);
+        this.adminService.createOneNewGoods(newItem);
+    };
+    EditGoodsComponent.prototype.getAllGoods = function () {
+        var _this = this;
+        return this.adminService.getAllGoods()
+            .then(function (goods) { return _this.goodsArray = goods; });
+    };
+    EditGoodsComponent.prototype.goBack = function () {
+        //console.log(this.goodsArray);
+        //console.log(this.subCategories);
+        this.location.back();
+    };
+    EditGoodsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-edit-goods',
+            template: __webpack_require__(/*! ./edit-goods.component.html */ "./src/app/back/edit-goods/edit-goods.component.html"),
+            styles: [__webpack_require__(/*! ./edit-goods.component.css */ "./src/app/back/edit-goods/edit-goods.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_admin_service__WEBPACK_IMPORTED_MODULE_3__["AdminService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]])
+    ], EditGoodsComponent);
+    return EditGoodsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/back/goods/goods.component.css":
+/*!************************************************!*\
+  !*** ./src/app/back/goods/goods.component.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/back/goods/goods.component.html":
+/*!*************************************************!*\
+  !*** ./src/app/back/goods/goods.component.html ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<nav class=\"navbar navbar-default\">\n        <div class=\"container\">\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                    aria-expanded=\"false\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n    \n                <a class=\"navbar-brand\" href=\"#\">\n                    <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\">\n                </a>\n                <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n            </div>\n    \n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li>\n                        <a routerLink=\"/type-page/type-page/11\" routerLinkActive=\"active fluffy\">\n                            <span class=\"glyphicon glyphicon-shopping-cart\"></span> Shopping</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </nav>\n\n\n<div class=\"row\" id=\"list1\">\n  <div class=\"col-xs-12 col-sm-12\" >\n    <div class=\"thumbnail\">\n\n      <div class=\"caption\">\n        <h3>Goods Information Administration</h3>\n      </div>\n\n      <br/>\n\n      <table class=\"table table-striped\">\n\n        <tr>\n          <th></th>\n\n          <th click=\"orderByMe('goods_id')\">Goods ID</th>\n          <th>cat ID</th>\n          <th ng-click=\"orderByMe('goods_name')\">Goods Name</th>\n          <th>goods_sn</th>\n          <th>shop_price</th>\n          <th>market_price</th>\n          <th>last_update</th>\n          <th>thumb_img</th>\n        </tr>\n\n\n        <tr *ngFor=\"let item of goodsArray \">\n\n          <td>\n          <button class=\"delete\"\n                  (click)=\"addOne(item); $event.stopPropagation()\">C</button>\n\n          <button class=\"delete\"\n                  (click)=\"deleteOne(item); $event.stopPropagation()\">D</button>\n\n          <button class=\"delete\"\n                  (click)=\"editOne(item); $event.stopPropagation()\">U</button>\n          </td>\n          <td align=\"center\">{{item.goods_id}}</td>\n          <td align=\"center\">{{item.cat_id}}</td>\n          <td>{{item.goods_name.slice(0, 15)}}</td>\n          <td>{{item.goods_sn}}</td>\n          <td align=\"right\">{{item.shop_price | currency:'USD':true}}</td>\n          <td align=\"right\">{{item.market_price | currency:'USD':true}}</td>\n          <td>{{item.last_update | date :  \"y.MM.dd hh:mm\"}}</td>\n          <td>{{item.thumb_img}}</td>\n        </tr>\n\n      </table>\n\n<!--\n\n      { cat_id: 11, goods_id: 1, goods_sn: 'ECS000001', brand_id: 1,  goods_name: 'iPhone 6s',\n      shop_price: 769.99,  market_price: 69.60, goods_number: 17,  click_count: 0, goods_weight: 1.2,\n      goods_brief: '', goods_desc:'iPhone 6s 4.7-inch display',\n      thumb_img : './app/imgs/iphone6s-silver-select.png' ,  goods_img : 'images/200905/goods_img/4_G_1241422402722.jpg',\n      ori_img: 'images/200905/source_img/4_G_1241422402919.jpg',  is_on_sale: true,  is_delete: true ,  is_best:true ,  is_new:true ,  is_hot:true,\n      add_time : new Date('October 13, 2015 11:13:00'), last_update:  new Date('October 13, 2016 11:13:00')\n\n  -->\n\n      <p>\n\n        <button type=\"button\" class=\"btn btn-primary\" (click)=\"goBack()\">Go back</button>\n\n        <!--\n\n        <a routerLink=\"/type-page/type-page/1\" class=\"btn btn-primary\" role=\"button\">Continue shopping</a>\n\n        <button type=\"button\" class=\"btn btn-outline-primary\" (click)=\"clearCart()\"> Clear Cart</button>\n\n        <button type=\"button\" class=\"btn btn-success\" (click)=\"confirmAndSaveOrder()\"> Confirm Order</button>\n-->\n\n      </p>\n\n    </div>\n  </div>\n\n\n\n\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/back/goods/goods.component.ts":
+/*!***********************************************!*\
+  !*** ./src/app/back/goods/goods.component.ts ***!
+  \***********************************************/
+/*! exports provided: GoodsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoodsComponent", function() { return GoodsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _services_admin_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/admin.service */ "./src/app/back/services/admin.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var GoodsComponent = /** @class */ (function () {
+    function GoodsComponent(adminService, router, location) {
+        this.adminService = adminService;
+        this.router = router;
+        this.location = location;
+    }
+    GoodsComponent.prototype.ngOnInit = function () {
+        this.getGoods();
+    };
+    GoodsComponent.prototype.getGoods = function () {
+        var _this = this;
+        return this.adminService.getGoods()
+            .then(function (goods) { return _this.goodsArray = goods; });
+        //.then(categories => this.subCategories = categories)
+        //.then(() => {
+        //  this.subCategories = this.categories.filter(h => h.parent_id == 0)
+        //})
+    };
+    GoodsComponent.prototype.orderByMe = function (x) {
+        console.log(x);
+        this.myOrderBy = x;
+    };
+    GoodsComponent.prototype.addOne = function (item) {
+        console.log("Add a new one Goods ====== ");
+        //this.editItem = new Category( 1, 1, 1, 'Category Name', 'Description');
+        this.router.navigate(['edit-goods/edit-goods', { id: item.goods_id, type: 1 }]);
+    };
+    // delete to in-memory-data
+    GoodsComponent.prototype.editOne = function (item) {
+        console.log("Edit a  Goods ====== ");
+        this.router.navigate(['edit-goods/edit-goods', { id: item.goods_id, type: 3 }]);
+    };
+    GoodsComponent.prototype.goBack = function () {
+        this.location.back();
+    };
+    GoodsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-goods',
+            template: __webpack_require__(/*! ./goods.component.html */ "./src/app/back/goods/goods.component.html"),
+            styles: [__webpack_require__(/*! ./goods.component.css */ "./src/app/back/goods/goods.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_admin_service__WEBPACK_IMPORTED_MODULE_3__["AdminService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"]])
+    ], GoodsComponent);
+    return GoodsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/back/services/admin.service.ts":
+/*!************************************************!*\
+  !*** ./src/app/back/services/admin.service.ts ***!
+  \************************************************/
+/*! exports provided: AdminService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdminService", function() { return AdminService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var httpOptions = {
+    headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({ 'Content-Type': 'application/json' })
+};
+var AdminService = /** @class */ (function () {
+    function AdminService(http) {
+        this.http = http;
+        this.headers = new _angular_http__WEBPACK_IMPORTED_MODULE_1__["Headers"]({ 'Content-Type': 'application/json' });
+        this.goodsUrl = 'app/goods'; // URL to web api ,  web api   in Memory
+        this.categoryUrl = 'app/categraies'; // URL to web api ,  web api   in Memory
+    }
+    // getGoods(): Promise<Goods[]> {
+    //   return this.http.get(this.goodsUrl)
+    //       .toPromise()
+    //       .then(response => response.json().data as Goods[])
+    //       .catch(this.handleError);
+    // }
+    AdminService.prototype.getGoods = function () {
+        return this
+            .http
+            .get(this.goodsUrl)
+            .toPromise();
+    };
+    AdminService.prototype.handleError = function (error) {
+        // In a real world app, we might use a remote logging infrastructure
+        // We'd also dig deeper into the error to get a better message
+        var errMsg = (error.message) ? error.message :
+            error.status ? error.status + " - " + error.statusText : 'Server error';
+        console.error(errMsg); // log to console instead
+        return rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"].throw(errMsg);
+    };
+    // getCategory(): Promise<Category[]> {
+    //   return this.http.get(this.categoryUrl)
+    //       .toPromise()
+    //       .then(response => response.json().data as Category[])
+    //       .catch(this.handleError);
+    // }
+    AdminService.prototype.getCategory = function () {
+        return this
+            .http
+            .get(this.categoryUrl)
+            .toPromise();
+    };
+    AdminService.prototype.deleteOneItem = function (item) {
+        console.log("delete item +++++++ ");
+        console.log(item);
+        var url = this.categoryUrl + "/" + item.id;
+        return this.http.delete(url, httpOptions)
+            .toPromise();
+    };
+    AdminService.prototype.updateOneItem = function (item) {
+        console.log("update ------- ");
+        console.log(item);
+        var url = this.categoryUrl + "/" + item.id;
+        return this.http
+            .put(url, JSON.stringify(item), httpOptions)
+            .toPromise();
+        //.catch(this.handleError);
+    };
+    AdminService.prototype.createOneItem = function (item) {
+        console.log("creat item +++++++ ");
+        console.log(item);
+        return this.http
+            .post(this.categoryUrl, JSON.stringify(item), httpOptions)
+            .toPromise();
+    };
+    // ------------------------------------------------ For Goods
+    AdminService.prototype.getGoodsByID = function (cat_id) {
+        //console.log("cat_id = " + cat_id);
+        //this.paramsID = cat_id;
+        return this.getGoods()
+            .then(function (goodsOne) { return goodsOne.filter(function (good) { return good.cat_id === cat_id; }); });
+    };
+    AdminService.prototype.getOneGoodsByID = function (goods_id) {
+        console.log("goods_id = " + goods_id);
+        return this.getGoods()
+            .then(function (goodsOne) { return goodsOne.filter(function (good) { return good.goods_id === goods_id; }); });
+    };
+    AdminService.prototype.updateOneGoods = function (item) {
+        console.log("update Goods ------- ");
+        console.log(item);
+        var url = this.goodsUrl + "/" + item.id;
+        return this.http
+            .put(url, JSON.stringify(item), httpOptions)
+            .toPromise();
+    };
+    AdminService.prototype.createOneNewGoods = function (item) {
+        console.log("creat new Goods +++++++ ");
+        console.log(item);
+        return this.http
+            .post(this.goodsUrl, JSON.stringify(item), httpOptions)
+            .toPromise();
+    };
+    AdminService.prototype.getAllGoods = function () {
+        return this.http.get(this.goodsUrl)
+            .toPromise();
+    };
+    AdminService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+    ], AdminService);
+    return AdminService;
 }());
 
 
@@ -2649,7 +3260,7 @@ module.exports = "app-type-page {\n    height: 700px;\n}\n\n.row {\n    margin-t
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<nav class=\"navbar navbar-default\">\n        <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"\n                  data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">Ang Shop</a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n          <ul class=\"nav navbar-nav\">\n            <li><a routerLink=\"/type-page/type-page/11\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-screenshot\"></span> Shopping</a></li>\n          </ul>\n          <!--\n          <search></search>\n        -->\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li><a routerLink=\"/dashboard/dashboard\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-pencil\"></span> Admin</a></li>\n          </ul>\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li><a routerLink=\"/cart/cart\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Cart</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n    \n    \n    <div class=\"row\">\n      <div class=\"container\">\n          <!--  ??????? can not use structure \n        <div  *ngFor=\"let item of goodsArray\" >\n        -->\n            \n          <app-breadcrumb [goods]=\"goodsArray\"></app-breadcrumb>\n    \n          <!--<div id=\"myCarousel\" class=\"carousel slide col-xs-12 col-md-4 col-sm-5\" data-ride=\"carousel\">-->\n          <div id=\"myCarousel\" class=\"carousel slide col-xs-12 col-md-4 col-sm-5\" data-ride=\"carousel\" data-interval=\"3000\">\n            <ol class=\"carousel-indicators\">\n              <li data-target=\"#myCarousel\" data-slide-to=\"0\" class=\"active\"></li>\n              <li data-target=\"#myCarousel\" data-slide-to=\"1\"></li>\n              <li data-target=\"#myCarousel\" data-slide-to=\"2\"></li>\n            </ol>\n            <div class=\"carousel-inner\">\n              <div  class=\"item active\" style=\"background:#FFF\">\n                <img  src={{thumb_img}} alt=\"1\" style=\"height: 460px; margin: 0 auto\">\n                                                    \n              </div>\n              <div  class=\"item\" style=\"background:#FFF;\">\n                <img  src={{goods_img}} alt=\"2\" style=\"height: 460px; margin: 0 auto\">\n              </div>\n              <div class=\"item\" style=\"background:#FFF;\">\n                <img  src={{ori_img}} alt=\"3\" style=\"height: 460px; margin: 0 auto\">\n              </div>\n            </div>\n            <a href=\"#myCarousel\" data-slide=\"prev\" class=\"carousel-control left\"><span class=\"glyphicon glyphicon-chevron-left\"></span></a>\n            <a href=\"#myCarousel\" data-slide=\"next\" class=\"carousel-control right\"><span class=\"glyphicon glyphicon-chevron-right\"></span></a>\n          </div>\n    \n        <div class=\"thumbnail col-xs-12 col-md-6 col-sm-6\">\n          <div class=\"caption\">\n            <h3>{{goods_name}}</h3>\n          </div>\n            <div class=\"table-responsive\">\n              <table class=\"table table-striped\">\n                <tr>\n                  <th>Goods ID :</th>\n                  <th>{{goods_id}}</th>\n                </tr>\n                <tr>\n                  <th>Goods SN : </th>\n                  <th>{{goods_sn}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Market Price :</th>\n                  <th><s>{{market_price|currency:'USD':'symbol-narrow'}}</s></th>\n                </tr>\n    \n                <tr>\n                  <th>Shop Price :</th>\n                  <th>{{shop_price|currency:'NAS ':'code'}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Stock Quantity: </th>\n                  <th>{{goods_quantity}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Sold Quantity: </th>\n                  <th>{{sold_quantity}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Product Weight : </th>\n                  <th>{{goods_weight}} kg</th>\n                </tr>\n    \n                <tr>\n                  <th>Product Details : </th>\n                  <th>{{goods_desc}}</th>\n                </tr>\n    \n              </table>\n    \n              <hr />\n              <div>\n                <button type=\"button\" class=\"btn btn-info  col-md-6 col-sm-6 col-xs-6\" (click)=\"goBack()\" >Go Back</button>\n    \n                <a routerLink=\"/cart/cart/{{goods_id}}/{{goods_name}}/{{shop_price}}\" class=\"btn btn-success col-md-6 col-sm-6 col-xs-6\" role=\"button\">Add to Cart</a>\n              </div>\n            </div>\n        </div>\n      </div>\n    \n    <script src=\"../imgs/jquery-1.10.2.min.js\"></script>\n    <script src=\"../imgs/bootstrap.min.js\"></script>\n    \n    <script type=\"text/javascript\">\n    \n          $('#myCarousel').carousel({\n              //自动4秒播放\n              interval : 2000,\n          });\n    \n        $(function () {\n    \n            alert(\"come in !\");\n    \n            //轮播自动播放\n            $('#myCarousel').carousel({\n                //自动4秒播放\n                interval : 2000,\n            });\n    \n            //设置垂直居中\n    //\n    //        $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');\n    //        $(window).resize(function () {\n    //            var $height = $('.carousel-inner img').eq(0).height() ||\n    //                $('.carousel-inner img').eq(1).height() ||\n    //                $('.carousel-inner img').eq(2).height();\n    //            $('.carousel-control').css('line-height', $height + 'px');\n    //        });\n    \n        });\n    </script>\n    \n    "
+module.exports = "\n<nav class=\"navbar navbar-default\">\n        <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"\n                  data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          \n          <a class=\"navbar-brand\" href=\"#\">\n                <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\"></a> \n            <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li><a routerLink=\"/dashboard\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-pencil\"></span> Admin</a></li>\n          </ul>\n        </div>\n      </div>\n    </nav>\n    <div class=\"row\">\n      <div class=\"container\">\n          <app-breadcrumb [goods]=\"goodsArray\"></app-breadcrumb>\n          <div id=\"myCarousel\" class=\"carousel slide col-xs-12 col-md-4 col-sm-5\" data-ride=\"carousel\" data-interval=\"3000\">\n            <ol class=\"carousel-indicators\">\n              <li data-target=\"#myCarousel\" data-slide-to=\"0\" class=\"active\"></li>\n              <li data-target=\"#myCarousel\" data-slide-to=\"1\"></li>\n              <li data-target=\"#myCarousel\" data-slide-to=\"2\"></li>\n            </ol>\n            <div class=\"carousel-inner\">\n              <div  class=\"item active\" style=\"background:#FFF\">\n                <img  src={{thumb_img}} alt=\"1\" style=\"height: 460px; margin: 0 auto\">\n                                                    \n              </div>\n              <div  class=\"item\" style=\"background:#FFF;\">\n                <img  src={{goods_img}} alt=\"2\" style=\"height: 460px; margin: 0 auto\">\n              </div>\n              <div class=\"item\" style=\"background:#FFF;\">\n                <img  src={{ori_img}} alt=\"3\" style=\"height: 460px; margin: 0 auto\">\n              </div>\n            </div>\n            <a href=\"#myCarousel\" data-slide=\"prev\" class=\"carousel-control left\"><span class=\"glyphicon glyphicon-chevron-left\"></span></a>\n            <a href=\"#myCarousel\" data-slide=\"next\" class=\"carousel-control right\"><span class=\"glyphicon glyphicon-chevron-right\"></span></a>\n          </div>\n    \n        <div class=\"thumbnail col-xs-12 col-md-6 col-sm-6\">\n          <div class=\"caption\">\n            <h3>{{goods_name}}</h3>\n          </div>\n            <div class=\"table-responsive\">\n              <table class=\"table table-striped\">\n                <tr>\n                  <th>Goods ID :</th>\n                  <th>{{goods_id}}</th>\n                </tr>\n                <tr>\n                  <th>Goods SN : </th>\n                  <th>{{goods_sn}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Market Price :</th>\n                  <th><s>{{market_price|currency:'USD':'symbol-narrow'}}</s></th>\n                </tr>\n    \n                <tr>\n                  <th>Shop Price :</th>\n                  <th>{{shop_price|currency:'NAS ':'code'}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Stock Quantity: </th>\n                  <th>{{goods_quantity}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Sold Quantity: </th>\n                  <th>{{sold_quantity}}</th>\n                </tr>\n    \n                <tr>\n                  <th>Product Weight : </th>\n                  <th>{{goods_weight}} kg</th>\n                </tr>\n    \n                <tr>\n                  <th>Product Details : </th>\n                  <th>{{goods_desc}}</th>\n                </tr>\n    \n              </table>\n    \n              <hr />\n              <div>\n                <button type=\"button\" class=\"btn btn-info  col-md-6 col-sm-6 col-xs-6\" (click)=\"goBack()\" >Go Back</button>\n    \n                <a routerLink=\"/cart/cart/{{goods_id}}/{{goods_name}}/{{shop_price}}\" class=\"btn btn-success col-md-6 col-sm-6 col-xs-6\" role=\"button\">Add to Cart</a>\n              </div>\n            </div>\n        </div>\n      </div>\n    \n    <script src=\"../imgs/jquery-1.10.2.min.js\"></script>\n    <script src=\"../imgs/bootstrap.min.js\"></script>\n    \n    <script type=\"text/javascript\">\n    \n          $('#myCarousel').carousel({\n              //自动4秒播放\n              interval : 2000,\n          });\n    \n        $(function () {\n    \n            alert(\"come in !\");\n    \n            //轮播自动播放\n            $('#myCarousel').carousel({\n                //自动4秒播放\n                interval : 2000,\n            });\n    \n            //设置垂直居中\n    //\n    //        $('.carousel-control').css('line-height', $('.carousel-inner img').height() + 'px');\n    //        $(window).resize(function () {\n    //            var $height = $('.carousel-inner img').eq(0).height() ||\n    //                $('.carousel-inner img').eq(1).height() ||\n    //                $('.carousel-inner img').eq(2).height();\n    //            $('.carousel-control').css('line-height', $height + 'px');\n    //        });\n    \n        });\n    </script>\n    \n    "
 
 /***/ }),
 
@@ -3223,7 +3834,7 @@ module.exports = ".selected {\n    background-color: #CFD8DC !important;\n    co
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<nav class=\"navbar navbar-default\">\n\n        <div class=\"container\">\n      \n          <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"\n                    data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n              <span class=\"sr-only\">Toggle navigation</span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n            </button>\n      \n            <a class=\"navbar-brand\" href=\"#\">Angular 2</a>\n      \n            <!--\n          <a class=\"navbar-brand\" href=\"#\">\n            <img alt=\"Ming\" src=\"./app/imgs/436631.jpg\">\n          </a>\n      \n          -->\n          </div>\n      \n          <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      \n            <ul class=\"nav navbar-nav\">\n      \n      \n              <li><a routerLink=\"/type-page/type-page/11\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-screenshot\"></span> Shopping</a></li>\n            </ul>\n      \n      \n            <search></search>\n            <!--\n                  <ul class=\"nav navbar-nav navbar-right\">\n                    <li><a href=\"/login/login\">Login</a></li>\n                  </ul>\n            -->\n      \n            <ul class=\"nav navbar-nav navbar-right\">\n              <li><a routerLink=\"/dashboard/dashboard\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-pencil\"></span> Admin</a></li>\n            </ul>\n      \n            <ul class=\"nav navbar-nav navbar-right\">\n              <li><a routerLink=\"/cart/cart\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Cart</a></li>\n            </ul>\n      \n          </div>\n      \n        </div>\n      </nav>\n      \n      \n      <div class=\"row\" id=\"list1\">\n      \n        <div class=\"container\">\n      \n        <div class=\"col-xs-3 col-md-3 col-sm-3\" >\n      \n          <h4>Searching result: </h4>\n          <br />\n          <ul class=\"heroes\">\n            <li *ngFor=\"let hero of goodsArray\"\n                [class.selected]=\"hero === selectedHero\"\n                (click)=\"onSelect(hero)\">\n              <span class=\"badge\">{{hero.goods_id}}</span> {{hero.goods_name.slice(0, 15)}}\n              <button class=\"delete\"\n                      (click)=\"delete(hero); $event.stopPropagation()\">x</button>\n            </li>\n          </ul>\n\n          <div class=\"row col-xs-12 col-md-12 col-sm-12\">\n            <button type=\"button\" class=\"btn btn-primary col-xs-12 col-md-12 col-sm-12\" (click)=\"goBack()\" >Go Back</button>\n          </div>\n        </div>\n      \n      \n        <div class=\"ccol-xs-12 col-sm-6 col-md-6 col-lg-6\" ></div>\n      \n        <div class=\"ccol-xs-12 col-sm-6 col-md-6 col-lg-6\">\n            \n          <app-small-goods [hero]=\"selectedHero\"></app-small-goods>\n        \n        </div>\n      \n      </div>\n      \n      \n      "
+module.exports = "\n<nav class=\"navbar navbar-default\">\n\n        <div class=\"container\">\n      \n          <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"\n                    data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n              <span class=\"sr-only\">Toggle navigation</span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"#\">\n                    <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\"></a> \n                <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n          </div>\n          <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n            <search></search>\n            <ul class=\"nav navbar-nav navbar-right\">\n              <li><a routerLink=\"/dashboard\" routerLinkActive=\"active fluffy\"><span class=\"glyphicon glyphicon-pencil\"></span> Admin</a></li>\n            </ul>\n          </div>\n        </div>\n      </nav>\n      \n      \n      <div class=\"row\" id=\"list1\">\n      \n        <div class=\"container\">\n      \n        <div class=\"col-xs-3 col-md-3 col-sm-3\" >\n      \n          <h4>Searching result: </h4>\n          <br />\n          <ul class=\"heroes\">\n            <li *ngFor=\"let hero of goodsArray\"\n                [class.selected]=\"hero === selectedHero\"\n                (click)=\"onSelect(hero)\">\n              <span class=\"badge\">{{hero.goods_id}}</span> {{hero.goods_name.slice(0, 15)}}\n              <button class=\"delete\"\n                      (click)=\"delete(hero); $event.stopPropagation()\">x</button>\n            </li>\n          </ul>\n\n          <div class=\"row col-xs-12 col-md-12 col-sm-12\">\n            <button type=\"button\" class=\"btn btn-primary col-xs-12 col-md-12 col-sm-12\" (click)=\"goBack()\" >Go Back</button>\n          </div>\n        </div>\n      \n      \n        <div class=\"ccol-xs-12 col-sm-6 col-md-6 col-lg-6\" ></div>\n      \n        <div class=\"ccol-xs-12 col-sm-6 col-md-6 col-lg-6\">\n            \n          <app-small-goods [hero]=\"selectedHero\"></app-small-goods>\n        \n        </div>\n      \n      </div>\n      \n      \n      "
 
 /***/ }),
 
@@ -3537,7 +4148,7 @@ module.exports = "\n.thumbnail img {\n    height: 260px;\n}\n\n.caption_h3 {\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n    <div class=\"container\">\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                aria-expanded=\"false\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"#\">\n                <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\"></a> \n            <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n            <ul class=\"nav navbar-nav\">\n                <li *ngFor=\"let item of menuMyItems\" class={{item.active}}>\n                    <a routerLink={{item.path}}{{item.parameterID}}{{item.random}} routerLinkActive=\"active fluffy\">{{item.linkName}}</a>\n                </li>\n                <!--<li  *ngFor=\"let item of menuMyItems\" class={{item.active}}><a routerLink={{item.path}}{{item.parameterID}} routerLinkActive=\"active fluffy\">{{item.linkName}}</a></li>-->\n            </ul>\n\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a routerLink=\"/dashboard/dashboard\" routerLinkActive=\"active fluffy\">\n                        <span class=\"glyphicon glyphicon-pencil\"></span> Admin</a>\n                </li>\n            </ul>\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a routerLink=\"/cart/cart\" routerLinkActive=\"active fluffy\">\n                        <span class=\"glyphicon glyphicon-shopping-cart\"></span> Cart</a>\n                </li>\n            </ul>\n            <ul class=\"nav navbar-nav navbar-right\">\n                \n              <search></search>\n            \n            </ul>\n        </div>\n    </div>\n</nav>\n\n<div class=\"row\">\n    <div class=\"container\">\n\n\n        <ul class=\"nav nav-tabs\">\n            <!--<li role=\"presentation\" *ngFor=\"let item of tabItems\" class={{item.active}}><a routerLink=\"{{item.path}}{{item.parameterID}}{{item.random}}\" routerLinkActive=\"active fluffy\">{{item.linkName}}</a></li>-->\n            <li role=\"presentation\" *ngFor=\"let item of tabItems\" class={{item.active}}>\n                <a routerLink=\"{{item.path}}{{item.parameterID}}\" routerLinkActive=\"active fluffy\">{{item.linkName}}</a>\n            </li>\n        </ul>\n        <br/>\n        <div class=\"container col-lg-3 col-md-4 col-sm-6\" *ngFor=\"let item of goodsArray\">\n            <div class=\"thumbnail\">\n                <img src={{item.thumb_img}} alt=\"goods image\">\n                <div class=\"caption\">\n                    <h3 class=\"caption_h3\">\n                        <strong>{{item.goods_name}}</strong>\n                    </h3>\n                    <p class=\"pull-right\">\n                        <s>{{item.market_price | currency:'USD':'symbol-narrow'}}</s>\n                    </p>\n                    <p>Market Price: </p>\n                    <p class=\"pull-right\">{{item.shop_price|currency:'NAS ':'code'}}</p>\n                    <p>Shop&nbsp;&nbsp;Price&nbsp;:</p>\n                    <div class=\"row\" style=\"padding: 3px 10px\">\n                        <p>\n                            <a routerLink=\"/detail/detail/{{item.goods_id}}\" class=\"btn btn-primary col-md-6 col-sm-6 col-xs-6\"\n                                role=\"button\">Details</a>\n                            <a routerLink=\"/cart/cart/{{item.goods_id}}/{{item.goods_name}}/{{item.shop_price}}\" class=\"btn btn-success col-md-6 col-sm-6 col-xs-6\"\n                                role=\"button\">Add to Cart</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<script>\n        /*  ?? Role ??\n      $(\".nav a\").on(\"click\", function(){\n      $(\".nav\").find(\".active\").removeClass(\"active\");\n      $(this).parent().addClass(\"active\");\n      });\n      Test .............................. ???\n      */\n</script>"
+module.exports = "<nav class=\"navbar navbar-default\">\n    <div class=\"container\">\n        <div class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\n                aria-expanded=\"false\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"#\">\n                <img alt=\"Nebulas\" src=\"assets/imgs/icon_19.png\"></a> \n            <a class=\"navbar-brand\" href=\"#\">NAS Shop</a>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n            <ul class=\"nav navbar-nav\">\n                <li *ngFor=\"let item of menuMyItems\" class={{item.active}}>\n                    <a routerLink={{item.path}}{{item.parameterID}}{{item.random}} routerLinkActive=\"active fluffy\">{{item.linkName}}</a>\n                </li>\n                <!--<li  *ngFor=\"let item of menuMyItems\" class={{item.active}}><a routerLink={{item.path}}{{item.parameterID}} routerLinkActive=\"active fluffy\">{{item.linkName}}</a></li>-->\n            </ul>\n\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a routerLink=\"/dashboard\" routerLinkActive=\"active fluffy\">\n                        <span class=\"glyphicon glyphicon-pencil\"></span> Admin</a>\n                </li>\n            </ul>\n            <ul class=\"nav navbar-nav navbar-right\">\n              <search></search>\n            </ul>\n        </div>\n    </div>\n</nav>\n\n<div class=\"row\">\n    <div class=\"container\">\n\n\n        <ul class=\"nav nav-tabs\">\n            <!--<li role=\"presentation\" *ngFor=\"let item of tabItems\" class={{item.active}}><a routerLink=\"{{item.path}}{{item.parameterID}}{{item.random}}\" routerLinkActive=\"active fluffy\">{{item.linkName}}</a></li>-->\n            <li role=\"presentation\" *ngFor=\"let item of tabItems\" class={{item.active}}>\n                <a routerLink=\"{{item.path}}{{item.parameterID}}\" routerLinkActive=\"active fluffy\">{{item.linkName}}</a>\n            </li>\n        </ul>\n        <br/>\n        <div class=\"container col-lg-3 col-md-4 col-sm-6\" *ngFor=\"let item of goodsArray\">\n            <div class=\"thumbnail\">\n                <img src={{item.thumb_img}} alt=\"goods image\">\n                <div class=\"caption\">\n                    <h3 class=\"caption_h3\">\n                        <strong>{{item.goods_name}}</strong>\n                    </h3>\n                    <p class=\"pull-right\">\n                        <s>{{item.market_price | currency:'USD':'symbol-narrow'}}</s>\n                    </p>\n                    <p>Market Price: </p>\n                    <p class=\"pull-right\">{{item.shop_price|currency:'NAS ':'code'}}</p>\n                    <p>Shop&nbsp;&nbsp;Price&nbsp;:</p>\n                    <div class=\"row\" style=\"padding: 3px 10px\">\n                        <p>\n                            <a routerLink=\"/detail/detail/{{item.goods_id}}\" class=\"btn btn-primary col-md-6 col-sm-6 col-xs-6\"\n                                role=\"button\">Details</a>\n                            <a routerLink=\"/cart/cart/{{item.goods_id}}/{{item.goods_name}}/{{item.shop_price}}\" class=\"btn btn-success col-md-6 col-sm-6 col-xs-6\"\n                                role=\"button\">Add to Cart</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n<!--\n<script src=\"../../../../node_modules/nebulas/lib/account.js\"></script>\n<script src=\"../../../../node_modules/nebulas/lib/httprequest.js\"></script>\n<script src=\"../../../../node_modules/nebulas/lib/nebulas.js\"></script>\n\n<script src=\"../../../../node_modules/nebulas/lib/utils/utils.js\"></script>\n<script src=\"../../../../node_modules/nebulas/lib/utils/crypto-utils.js\"></script>\n<script src=\"../../../../node_modules/nebulas/lib/utils/unit.js\"></script>\n-->\n\n\n<script>\n        /*  ?? Role ??\n      $(\".nav a\").on(\"click\", function(){\n      $(\".nav\").find(\".active\").removeClass(\"active\");\n      $(this).parent().addClass(\"active\");\n      });\n      Test .............................. ???\n      */\n\n\n\n\n</script>"
 
 /***/ }),
 
@@ -3555,72 +4166,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _services_goods_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/goods.service */ "./src/app/services/goods.service.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
-/*
-import { Component, OnInit } from '@angular/core';
-import { Goods, Category, MenuItem } from '../../dataClass/defineClass';
-import { GoodsService } from '../../services/goods.service';
-import { RemoteService } from '../../services/remote.service';
-
-@Component({
-  selector: 'app-type-page',
-  templateUrl: './type-page.component.html',
-  styleUrls: ['./type-page.component.css']
-})
-export class TypePageComponent implements OnInit {
-
-  private goodsArray: Goods[];
-  private categories: Category[];
-  private menuMyItems: MenuItem[];
-  private tabItems:    MenuItem[];
-  private oneGoods:    Goods;
-
-  constructor(private goodsService: GoodsService,
-              private remoteService: RemoteService
-  ) { }
-
-  ngOnInit() {
-
-    //this.getGoodsByID(3);
-    this.getHeroes();
-  }
-
-  getHeroes(): void {
-    this.goodsService.getGoods()
-    //this.remoteService.getProducts()
-    .subscribe(goodsArray => this.goodsArray = goodsArray);
-    //.then(goodsArray => this.goodsArray = goodsArray)
-    //.then(goodsArray => console.log(goodsArray));
-  }
-
-  getGoodsByID(id : number): void {
-    this.goodsService.getGood(id)
-    .subscribe(goodsArray => this.oneGoods = goodsArray);
-  }
-
-  add(name: string): void {
-
-    name = name.trim();
-    if (!name) { return; }
-
-    // ?????
-    this.goodsService.addGoods( new Goods(
-      111, 11, 1, 'ECS000001', 1,  'iPhone 6s',
-      69.99,  869.60, 127,  6, 1.2,
-          '', 'iPhone 6s 4.7-inch display',
-      './app/imgs/iphone6s-silver-select.png' ,  './app/imgs/6s-1.jpeg',
-      './app/imgs/6s-3.jpeg',  true,  true ,  true ,  true , true,
-      new Date('October 13, 2015 11:13:00'),  new Date('October 15, 2016 11:13:00') ) )
-      .subscribe(hero => {
-        this.goodsArray.push(hero);
-      });
-  }
- 
-  delete(hero: Goods): void {
-    this.goodsArray = this.goodsArray.filter(h => h !== hero);
-    this.goodsService.deleteGoods(hero).subscribe();
-  }
-}
-*/
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3634,6 +4179,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+// testing
+// declare var myTest: any;
 var TypePageComponent = /** @class */ (function () {
     function TypePageComponent(goodsService, 
     //private dataService: ProductService,
@@ -3644,6 +4191,17 @@ var TypePageComponent = /** @class */ (function () {
         this.products = [];
         this.menuMyItems = new Array();
         this.tabItems = new Array();
+        /* testing
+        var nebVar = new Neb();
+        nebVar.setRequest(new HttpRequest("https://testnet.nebulas.io"));
+        nebVar.api.getAccountState("n1PfySvoUyNfWg6xKDohK96TCWbSxQXLdwB").then(function (state) {
+          console.log(state);
+      }).catch(function (err) {
+          console.log(err);
+      });
+  */
+        //new myTest();  // Good from js, for testing 
+        //new Admin();
     }
     TypePageComponent.prototype.ngOnInit = function () {
         // Meetup Test IProduct Interface is OK !!!
@@ -4037,7 +4595,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/mingjing/Desktop/SSD/nas-shop for Git/NAS-Shop/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/mingjing/Desktop/NAS Shop/NAS-Shop/src/main.ts */"./src/main.ts");
 
 
 /***/ })
